@@ -143,6 +143,7 @@ def train_model(
     )  # weight_decay=0.001, amsgrad=True
 
     # Create DataLoaders
+    # Note: uncomment sampler for testing
     subset_sampler = SubsetRandomSampler(indices=[150, 160])
     train_loader = DataLoader(
         train_dataset,
@@ -422,6 +423,7 @@ def main():
             title = model + "-" + encoder + " FAILED"
             logger.info("Send email")
             message = traceback.format_exc()
+        # Sendgrid API key needed, put your email inside
         print(message)
         send_email(title=title, message=message)
         # break
@@ -456,8 +458,8 @@ def get_fns(x):
 
 if __name__ == "__main__":
     """
-    Encoders: https://github.com/qubvel/segmentation_models.pytorch
-
+    Number of extracted slices for VisSim cervical spine dataset:
+    
     ## Axis 0
     ls tif_slices_valid | wc -l ## 490
     ls tif_slices_test | wc -l ## 352

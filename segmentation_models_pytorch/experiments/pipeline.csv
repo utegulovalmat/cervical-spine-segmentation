@@ -1,5 +1,5 @@
 done,model,encoder,axis,epochs,batch
-no,linknet,resnet50,0,100,8
+yes,linknet,resnet18,0,1,8
 no,linknet,inceptionv4,0,100,4
 no,pspnet,resnet50,0,100,8
 no,pspnet,inceptionv4,0,100,4

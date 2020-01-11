@@ -1,5 +1,3 @@
-Code extended from: https://github.com/qubvel/segmentation_models.pytorch
-
 ### Cervical spine segmentation
 
 To reproduce results run one of:
@@ -29,4 +27,7 @@ Pipeline of models in the training queue is configured in `segmentation_models_p
  - [PSPNet](https://arxiv.org/abs/1612.01105)
 
 #### Encoders <a name="encoders"></a>
-List of encoders: https://github.com/qubvel/segmentation_models.pytorch
+`cervical-spine-segmentation/segmentation_models_pytorch/encoders`
+
+### References
+Code extended from: https://github.com/qubvel/segmentation_models.pytorch
