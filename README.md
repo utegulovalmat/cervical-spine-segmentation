@@ -7,27 +7,27 @@ Results for models:
 |-----------------|:----------------:|:-------------:|:-------:|
 |Unet             |random init.      |Yes            |--       |
 |Unet             |random init.      |No             |84       |
-|Unet             |resnet50          |Yes            |--       |
+|Unet             |resnet50          |Yes            |87       |
 |Unet             |resnet50          |No             |84       |
-|Unet             |inceptionv4       |Yes            |--       |
+|Unet             |inceptionv4       |Yes            |79       |
 |Unet             |inceptionv4       |No             |80       |
 |FPN              |random init.      |Yes            |--       |
 |FPN              |random init.      |No             |83       |
-|FPN              |resnet50          |Yes            |--       |
+|FPN              |resnet50          |Yes            |86       |
 |FPN              |resnet50          |No             |80       |
-|FPN              |inceptionv4       |Yes            |--       |
+|FPN              |inceptionv4       |Yes            |79       |
 |FPN              |inceptionv4       |No             |79       |
 |Linknet          |random init.      |Yes            |--       |
 |Linknet          |random init.      |No             |84       |
-|Linknet          |resnet50          |Yes            |--       |
+|Linknet          |resnet50          |Yes            |86       |
 |Linknet          |resnet50          |No             |86       |
 |Linknet          |inceptionv4       |Yes            |--       |
 |Linknet          |inceptionv4       |No             |82       |
 |PSPNet           |random init.      |Yes            |--       |
 |PSPNet           |random init.      |No             |82       |
-|PSPNet           |resnet50          |Yes            |--       |
+|PSPNet           |resnet50          |Yes            |80       |
 |PSPNet           |resnet50          |No             |74       |
-|PSPNet           |inceptionv4       |Yes            |--       |
+|PSPNet           |inceptionv4       |Yes            |78       |
 |PSPNet           |inceptionv4       |No             |74       |
 
 
