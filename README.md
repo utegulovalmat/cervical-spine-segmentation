@@ -67,25 +67,25 @@ Results for models trained on AXIAL view (axis-2):
 |Model            |Encoder           |N4 correction  |DSC, %   |
 |-----------------|:----------------:|:-------------:|:-------:|
 |Unet             |random init.      |Yes            |       |
-|Unet             |random init.      |No             |       |
+|Unet             |random init.      |No             |74       |
 |Unet             |resnet50          |Yes            |       |
 |Unet             |resnet50          |No             |       |
 |Unet             |inceptionv4       |Yes            |       |
 |Unet             |inceptionv4       |No             |       |
 |FPN              |random init.      |Yes            |       |
-|FPN              |random init.      |No             |       |
+|FPN              |random init.      |No             |71       |
 |FPN              |resnet50          |Yes            |       |
 |FPN              |resnet50          |No             |       |
 |FPN              |inceptionv4       |Yes            |       |
 |FPN              |inceptionv4       |No             |       |
-|Linknet          |random init.      |Yes            |       |
-|Linknet          |random init.      |No             |       |
+|Linknet          |random init.      |Yes            |74       |
+|Linknet          |random init.      |No             |79       |
 |Linknet          |resnet50          |Yes            |       |
 |Linknet          |resnet50          |No             |       |
 |Linknet          |inceptionv4       |Yes            |       |
 |Linknet          |inceptionv4       |No             |       |
-|PSPNet           |random init.      |Yes            |       |
-|PSPNet           |random init.      |No             |       |
+|PSPNet           |random init.      |Yes            |72       |
+|PSPNet           |random init.      |No             |74       |
 |PSPNet           |resnet50          |Yes            |       |
 |PSPNet           |resnet50          |No             |       |
 |PSPNet           |inceptionv4       |Yes            |       |
