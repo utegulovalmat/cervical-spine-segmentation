@@ -23,7 +23,7 @@ Results for models trained on SAGITTAL view (axis-0):
 |Linknet          |random init.      |No             |84       |
 |Linknet          |resnet50          |Yes            |86       |
 |Linknet          |resnet50          |No             |86       |
-|Linknet          |inceptionv4       |Yes            |--       |
+|Linknet          |inceptionv4       |Yes            |76       |
 |Linknet          |inceptionv4       |No             |82       |
 |PSPNet           |random init.      |Yes            |79       |
 |PSPNet           |random init.      |No             |82       |
@@ -37,30 +37,30 @@ Results for models trained on CORONAL view (axis-1):
 
 |Model            |Encoder           |N4 correction  |DSC, %   |
 |-----------------|:----------------:|:-------------:|:-------:|
-|Unet             |random init.      |Yes            |       |
-|Unet             |random init.      |No             |       |
-|Unet             |resnet50          |Yes            |       |
-|Unet             |resnet50          |No             |       |
-|Unet             |inceptionv4       |Yes            |       |
-|Unet             |inceptionv4       |No             |       |
-|FPN              |random init.      |Yes            |       |
-|FPN              |random init.      |No             |       |
-|FPN              |resnet50          |Yes            |       |
-|FPN              |resnet50          |No             |       |
-|FPN              |inceptionv4       |Yes            |       |
-|FPN              |inceptionv4       |No             |       |
-|Linknet          |random init.      |Yes            |       |
-|Linknet          |random init.      |No             |       |
-|Linknet          |resnet50          |Yes            |       |
-|Linknet          |resnet50          |No             |       |
-|Linknet          |inceptionv4       |Yes            |       |
-|Linknet          |inceptionv4       |No             |       |
-|PSPNet           |random init.      |Yes            |       |
-|PSPNet           |random init.      |No             |       |
-|PSPNet           |resnet50          |Yes            |       |
-|PSPNet           |resnet50          |No             |       |
-|PSPNet           |inceptionv4       |Yes            |       |
-|PSPNet           |inceptionv4       |No             |       |
+|Unet             |random init.      |Yes            |77       |
+|Unet             |random init.      |No             |76       |
+|Unet             |resnet50          |Yes            |79       |
+|Unet             |resnet50          |No             |77       |
+|Unet             |inceptionv4       |Yes            |81       |
+|Unet             |inceptionv4       |No             |75       |
+|FPN              |random init.      |Yes            |71       |
+|FPN              |random init.      |No             |70       |
+|FPN              |resnet50          |Yes            |84       |
+|FPN              |resnet50          |No             |75       |
+|FPN              |inceptionv4       |Yes            |88       |
+|FPN              |inceptionv4       |No             |83       |
+|Linknet          |random init.      |Yes            |71       |
+|Linknet          |random init.      |No             |77       |
+|Linknet          |resnet50          |Yes            |86       |
+|Linknet          |resnet50          |No             |80       |
+|Linknet          |inceptionv4       |Yes            |83       |
+|Linknet          |inceptionv4       |No             |78       |
+|PSPNet           |random init.      |Yes            |58       |
+|PSPNet           |random init.      |No             |77       |
+|PSPNet           |resnet50          |Yes            |78       |
+|PSPNet           |resnet50          |No             |76       |
+|PSPNet           |inceptionv4       |Yes            |82       |
+|PSPNet           |inceptionv4       |No             |78       |
 
 Results for models trained on AXIAL view (axis-2):
 
