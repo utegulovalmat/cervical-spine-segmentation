@@ -1,7 +1,6 @@
 ### Cervical spine segmentation
 
-Trained model can be downloaded here: 
-https://mtixnat.uni-koblenz.de/owncloud/index.php/s/UBkFmvpQpzaXqj5
+Trained model can be downloaded here: https://mtixnat.uni-koblenz.de/owncloud/index.php/s/A1sDjRoIJ0XVkKR
 
 Results for models trained on SAGITTAL view (axis-0):
 
@@ -66,13 +65,13 @@ Results for models trained on AXIAL view (axis-2):
 
 |Model            |Encoder           |N4 correction  |DSC, %   |
 |-----------------|:----------------:|:-------------:|:-------:|
-|Unet             |random init.      |Yes            |       |
+|Unet             |random init.      |Yes            |74       |
 |Unet             |random init.      |No             |74       |
 |Unet             |resnet50          |Yes            |       |
 |Unet             |resnet50          |No             |       |
 |Unet             |inceptionv4       |Yes            |       |
 |Unet             |inceptionv4       |No             |       |
-|FPN              |random init.      |Yes            |       |
+|FPN              |random init.      |Yes            |70       |
 |FPN              |random init.      |No             |71       |
 |FPN              |resnet50          |Yes            |       |
 |FPN              |resnet50          |No             |       |
