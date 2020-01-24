@@ -67,28 +67,28 @@ Results for models trained on AXIAL view (axis-2):
 |-----------------|:----------------:|:-------------:|:-------:|
 |Unet             |random init.      |Yes            |74       |
 |Unet             |random init.      |No             |74       |
-|Unet             |resnet50          |Yes            |       |
-|Unet             |resnet50          |No             |       |
-|Unet             |inceptionv4       |Yes            |       |
-|Unet             |inceptionv4       |No             |       |
+|Unet             |resnet50          |Yes            |77       |
+|Unet             |resnet50          |No             |77       |
+|Unet             |inceptionv4       |Yes            |79       |
+|Unet             |inceptionv4       |No             |79       |
 |FPN              |random init.      |Yes            |70       |
 |FPN              |random init.      |No             |71       |
-|FPN              |resnet50          |Yes            |       |
-|FPN              |resnet50          |No             |       |
-|FPN              |inceptionv4       |Yes            |       |
-|FPN              |inceptionv4       |No             |       |
+|FPN              |resnet50          |Yes            |78       |
+|FPN              |resnet50          |No             |80       |
+|FPN              |inceptionv4       |Yes            |74       |
+|FPN              |inceptionv4       |No             |73       |
 |Linknet          |random init.      |Yes            |74       |
 |Linknet          |random init.      |No             |79       |
-|Linknet          |resnet50          |Yes            |       |
-|Linknet          |resnet50          |No             |       |
+|Linknet          |resnet50          |Yes            |73       |
+|Linknet          |resnet50          |No             |73       |
 |Linknet          |inceptionv4       |Yes            |       |
 |Linknet          |inceptionv4       |No             |       |
 |PSPNet           |random init.      |Yes            |72       |
 |PSPNet           |random init.      |No             |74       |
-|PSPNet           |resnet50          |Yes            |       |
-|PSPNet           |resnet50          |No             |       |
-|PSPNet           |inceptionv4       |Yes            |       |
-|PSPNet           |inceptionv4       |No             |       |
+|PSPNet           |resnet50          |Yes            |72       |
+|PSPNet           |resnet50          |No             |72       |
+|PSPNet           |inceptionv4       |Yes            |75       |
+|PSPNet           |inceptionv4       |No             |77       |
 
 To reproduce results run one of:
 
