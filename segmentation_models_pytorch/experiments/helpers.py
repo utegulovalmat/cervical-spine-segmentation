@@ -30,7 +30,7 @@ def get_volume_paths(input_dir: str):
     for dirname, _, filenames in os.walk(input_dir):
         for filename in filenames:
             if "nrrd" in filename and "seg" not in filename:
-                if "label.nrrd" in filename or "-label-corr.nrrd" in filename:
+                if "label" in filename:
                     mask_fns.append(os.path.join(dirname, filename))
                 else:
                     fns.append(os.path.join(dirname, filename))
