@@ -81,8 +81,8 @@ Results for models trained on AXIAL view (axis-2):
 |Linknet          |random init.      |No             |79       |
 |Linknet          |resnet50          |Yes            |73       |
 |Linknet          |resnet50          |No             |73       |
-|Linknet          |inceptionv4       |Yes            |       |
-|Linknet          |inceptionv4       |No             |       |
+|Linknet          |inceptionv4       |Yes            |78       |
+|Linknet          |inceptionv4       |No             |73       |
 |PSPNet           |random init.      |Yes            |72       |
 |PSPNet           |random init.      |No             |74       |
 |PSPNet           |resnet50          |Yes            |72       |
