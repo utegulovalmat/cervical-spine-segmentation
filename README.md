@@ -48,13 +48,13 @@ Results for models trained on CORONAL view (axis-1):
 |FPN              |resnet50          |No             |75       |
 |FPN              |inceptionv4       |Yes            |88       |
 |FPN              |inceptionv4       |No             |83       |
-|Linknet          |random init.      |Yes            |71       |
+|Linknet          |random init.      |Yes            |75       |
 |Linknet          |random init.      |No             |77       |
 |Linknet          |resnet50          |Yes            |86       |
 |Linknet          |resnet50          |No             |80       |
 |Linknet          |inceptionv4       |Yes            |83       |
 |Linknet          |inceptionv4       |No             |78       |
-|PSPNet           |random init.      |Yes            |58       |
+|PSPNet           |random init.      |Yes            |74       |
 |PSPNet           |random init.      |No             |77       |
 |PSPNet           |resnet50          |Yes            |78       |
 |PSPNet           |resnet50          |No             |76       |
