@@ -2,6 +2,9 @@
 
 Trained model can be downloaded here: https://mtixnat.uni-koblenz.de/owncloud/index.php/s/A1sDjRoIJ0XVkKR
 
+![Model prediction visualization](prediction-axis-0.gif)
+![Model prediction visualization](prediction-axis-1.gif)
+
 Results for models trained on SAGITTAL view (axis-0):
 
 |Model            |Encoder           |N4 correction  |DSC, %   |
