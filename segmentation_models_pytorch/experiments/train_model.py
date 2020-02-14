@@ -154,14 +154,14 @@ def train_model(
     )
     valid_loader = DataLoader(
         valid_dataset,
-        batch_size=1,
+        batch_size=12,
         num_workers=4,
         shuffle=False,
         # sampler=subset_sampler,
     )
     test_loader = DataLoader(
         test_dataset,
-        batch_size=1,
+        batch_size=12,
         num_workers=4,
         shuffle=False,
         # sampler=subset_sampler,
@@ -381,6 +381,7 @@ def main():
         new_print("train", get_fns(train_volumes))
         new_print("valid", get_fns(valid_volumes))
         new_print("test", get_fns(test_volumes))
+        logger.info("Slices are in " + str(input_dir))
         try:
             logger.info("\n\n\nStart training " + output_dir + "\n\n")
 
@@ -458,8 +459,8 @@ def get_fns(x):
 
 if __name__ == "__main__":
     """
-    Number of extracted slices for VisSim cervical spine dataset:
-    
+    Encoders: https://github.com/qubvel/segmentation_models.pytorch
+
     ## Axis 0
     ls tif_slices_valid | wc -l ## 490
     ls tif_slices_test | wc -l ## 352
