@@ -1,6 +1,6 @@
 ### Cervical spine segmentation
 
-Trained model can be downloaded here: https://mtixnat.uni-koblenz.de/owncloud/index.php/s/A1sDjRoIJ0XVkKR
+Trained model can be downloaded here: https://mtixnat.uni-koblenz.de/owncloud/index.php/s/uJAVI1ombOJitj9
 
 Example predictions (white border - ground truth, green - prediction):
 ![Model prediction visualization](prediction-axis-0.gif)
